@@ -1,5 +1,6 @@
 import random
 #Method 1
+print("What is the thing you like?")
 responses = random.randint(0, 9)
 
 if responses == 0:
@@ -38,3 +39,4 @@ responses = [
 ]
 
 print(random.choice(responses))
+
